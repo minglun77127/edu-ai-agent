@@ -117,8 +117,16 @@
   * {
     @apply border-foreground/20 outline-ring/50;
   }
+  html {
+    background-image: url('/xmas_background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
   body {
-    @apply bg-background text-foreground;
+    @apply text-foreground;
+    background: transparent;
   }
 }
 

@@ -64,6 +64,12 @@ export default async function RootLayout({ children }: RootLayoutProps) {
         <meta name="description" content={pageDescription} />
       </head>
       <body className="overflow-x-hidden">
+        <div
+          className="fixed inset-0 -z-10 bg-cover bg-center bg-no-repeat"
+          style={{
+            backgroundImage: "url('/xmas_background.jpg')",
+          }}
+        />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"

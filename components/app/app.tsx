@@ -43,7 +43,7 @@ export function App({ appConfig }: AppProps) {
   return (
     <SessionProvider session={session}>
       <AppSetup />
-      <main className="grid h-svh grid-cols-1 place-content-center">
+      <main className="grid h-svh grid-cols-1 place-content-center bg-transparent">
         <ViewController appConfig={appConfig} />
       </main>
       <StartAudio label="Start Audio" />

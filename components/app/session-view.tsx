@@ -87,7 +87,7 @@ export const SessionView = ({
   }, [messages]);
 
   return (
-    <section className="bg-background relative z-10 h-full w-full overflow-hidden" {...props}>
+    <section className="relative z-10 h-full w-full overflow-hidden" {...props}>
       {/* Chat Transcript */}
       <div
         className={cn(
